@@ -3,7 +3,7 @@ const app = express(),
       port = process.env.PORT || 3080;
 
 app.get('/', (req,res) => {
-    res.send('App Working fine now......bye !!!');
+    res.send('App Working fine now...... good bye !!!');
 });
 
 app.get('/time', (req,res) => {
